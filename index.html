@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+    <h3 class="venha">
+        Venha conhecer nossa nova academia!</h3>
+    <p class="p_intro">
+        Para praticar uma atividade física é essencial para um bom funcionamento do corpo e da mente. Na academia os treinos são praticados com cargas ou sem elas. A pratica de exercícios te ajuda, por exemplo, acelerando o metabolismo do corpo, ajuda a perder a gordura corporal e adquirir músculos, mantem o corpo jovem, protege os ossos do nosso corpo, deixa o coração mais forte, dentre diversos outros benefícios.</p>
+    <br />
+    <div class="container" id="container-slide" style="margin-top:3rem; margin-bottom: 7rem;">
+        <div class="carousel slide" data-ride="carousel" id="myCarousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousel" id="icon-slide">
+                    &nbsp;</li>
+                <li data-slide-to="1" data-target="#myCarousel" id="icon-slide">
+                    &nbsp;</li>
+                <li data-slide-to="2" data-target="#myCarousel" id="icon-slide">
+                    &nbsp;</li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img alt="Academia JPG" src="https://www.marinha.mil.br/cmn/sites/www.marinha.mil.br.cmn/files/acad1.jpeg" style="width:100%;" /></div>
+                <div class="item">
+                    <img alt="Academia JPG" src="https://www.marinha.mil.br/cmn/sites/www.marinha.mil.br.cmn/files/acad2.jpeg" style="width:100%;" /></div>
+                <div class="item">
+                    <img alt="Academia JPG" src="https://www.marinha.mil.br/cmn/sites/www.marinha.mil.br.cmn/files/acad3.jpeg" style="width:100%;" /></div>
+            </div>
+            <!-- Left and right controls
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+       <span class="glyphicon glyphicon-chevron-left"></span>
+       <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#myCarousel" data-slide="next">
+       <span class="glyphicon glyphicon-chevron-right"></span>
+       <span class="sr-only">Next</span>
+     </a> --></div>
+    </div>
+    <p class="atividades">
+        A academia da ARES-CMN oferece algumas atividades para seus sócios.<br />
+        Clique em um dos botões abaixo para mais informações:</p>
+    <div class="buttons">
+        <a data-target="#musculacao" data-toggle="modal" href="#"><!-- Data-target para MODAL/Pop'up --></a>
+        <div class="buttons">
+            <a data-target="#musculacao" data-toggle="modal" href="#"><button class="btn-hover color-9" type="button">Musculação</button></a></div>
+        <a data-target="#pilates" data-toggle="modal" href="#"><!-- Data-target para MODAL/Pop'up --><button class="btn-hover color-9" type="button">Pilates</button></a> <a data-target="#fisioterapia" data-toggle="modal" href="#"> <!-- Data-target para MODAL/Pop'up --><button class="btn-hover color-9" type="button">Fisioterapia</button></a> <a data-target="#hidroginastica" data-toggle="modal" href="#"> <!-- Data-target para MODAL/Pop'up --><button class="btn-hover color-9" type="button">Hidroginástica</button></a> <a data-target="#circuito-funcional" data-toggle="modal" href="#"> <!-- Data-target para MODAL/Pop'up --><button class="btn-hover color-9" type="button">Circuito Funcional</button></a></div>
+    <!----------------------------------------TABELA HORARIO DA ACADEMIA -->
+    <table class="table-active" id="table-hora1">
+        <tbody>
+            <tr>
+                <th class="table-titulo" colspan="2">
+                    Horários da da Academia</th>
+            </tr>
+            <tr>
+                <td class="dia">
+                    Terça a Sexta-Feira</td>
+                <td class="hora">
+                    9:30 ás 12h / 13:30 ás 18h</td>
+            </tr>
+            <tr>
+                <td class="dia">
+                    Sábado</td>
+                <td class="hora">
+                    9h ás 12h</td>
+            </tr>
+            <tr>
+                <td class="dia">
+                    Domingo e Segunda-Feira</td>
+                <td class="hora1">
+                    Fechado para manutenção</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        <strong>Documentos necessários para inscrição: Carteirinha de Sócio e Atestado Médico.</strong></p>
+    <p class="telefone">
+        Telefones para contato: 2101-0993 ou 8127-1993 (RETELMA).<br />
+        Whatsapp: (21) 97289-1846.</p>
+    <p>
+        <!------------------- Musculação --></p>
+    <div class="modal fade" id="musculacao" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">
+                        Musculação</h4>
+                </div>
+                <div class="modal-body" id="musculacao-body">
+                    <img alt="Musculação JPG" class="modal-img" src="https://www.marinha.mil.br/cmn/sites/www.marinha.mil.br.cmn/files/chaves.jpg" />
+                    <p>
+                        O treinamento de força, conhecido popularmente como musculação é uma forma de exercício contra resistência, praticado normalmente em ginásios, para o treinamento e desenvolvimento dos músculos esqueléticos.</p>
+                    <p>
+                        A ARES-CMN oferece gratuitamente musculação aos seus sócios com idade a partir de 14 anos.</p>
+                    <p id="titulo-horarios">
+                        Os dias e horários se encontram no quadro a seguir:</p>
+                    <table class="table-active" id="table-musculacao">
+                        <tbody>
+                            <tr>
+                                <th class="table-titulo" colspan="2">
+                                    &nbsp;</th>
+                            </tr>
+                            <tr>
+                                <td class="dia">
+                                    Terça-Feira</td>
+                                <td class="hora">
+                                    9h ás 12h / 13:20 ás 17:15</td>
+                            </tr>
+                            <tr>
+                                <td class="dia">
+                                    Sábado</td>
+                                <td class="hora">
+                                    9h ás 12h</td>
+                            </tr>
+                            <tr>
+                                <td class="dia">
+                                    Domingo e Segunda-Feira</td>
+                                <td class="hora1">
+                                    Fechado para manutenção</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- <div class="modal-footer">
+                                        
+                      </div> --></div>
+            <!-- /.modal-content --></div>
+        <!-- /.modal-dialog --></div>
+    <!-- /.modal --><!-- /.col --><!------------------- Pilates -->
+    <div class="modal fade" id="pilates" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">
+                        Pilates</h4>
+                </div>
+                <div class="modal-body" id="pilates-body">
+                    <img alt="Pilates JPG" class="modal-img" src="https://www.marinha.mil.br/cmn/sites/www.marinha.mil.br.cmn/files/field/image/Pilates-Avan%C3%A7ado-4.jpg" />
+                    <p>
+                        Quem pratica Pilates com frequência percebe as seguintes melhorias no copo: Postura, mobilidade e flexibilidade da coluna vertebral, melhor distribuição do tônus muscular, fortalecimento do abdômen, estabilidade para a pélvis e ombros, conquista da saúde das articulações e complemento do treino para atletas.</p>
+                    <p id="titulo-horarios">
+                        O Pilates é realizado no prédio da Academia nos seguintes dias e horários:</p>
+                    <table class="table-active" id="table-pilates">
+                        <tbody>
+                            <tr>
+                                <th class="table-titulo" colspan="2">
+                                    &nbsp;</th>
+                            </tr>
+                            <tr>
+                                <td class="dia">
+                                    Terça a Sexta-Feira</td>
+                                <td class="hora">
+                                    14h ás 15:30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <p>
+                        <i>Esta modalidade tem uma taxa mensal de R$ 80,00 com direito a praticar duas vezes na semana.</i></p>
+                </div>
+            </div>
+            <!-- /.modal-content --></div>
+        <!-- /.modal-dialog --></div>
+    <!-- /.modal --><!-- /.col --><!------------------- Fisioterapia -->
+    <div class="modal fade" id="fisioterapia" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">
+                        Fisioterapia</h4>
+                </div>
+                <div class="modal-body" id="pilates-body">
+                    <img alt="Fisioterapia JPG" class="modal-img" src="https://www.marinha.mil.br/cmn/sites/www.marinha.mil.br.cmn/files/fisioterapia.jpg" />
+                    <p>
+                        O fisioteraeuta analisa e interpreta exames e laudos médicos para ter uma visão ampla do estado de saúde do paciente e identificar alguma possível lesão. Observa também os movimentos do paciente, se tem dificuldade motora ou sente dor.<br />
+                        O tratamento varia de acordo com a condição do paciente e a lesão a ser tratada, podendo ser:<br />
+                        Aplicação de massagens | Exercícios físicos | Tratamento a base de frio e calor.</p>
+                    <p id="titulo-horarios">
+                        A Fisioterapia é realizada no prédio da Academia duas vezes na semana.<br />
+                        <i>Necessário: encaminhamento para entrar na lista de espera.</i></p>
+                    <!-- <table class="table-active" id="table-fisioterpaia">
+      <tbody>
+        <th class="table-titulo"  colspan="2"></th>
+        <tr>
+          <td class="dia">
+            ???</td>
+          <td class="hora">
+            ???</td>
+        </tr>
+        <tr>
+          <td class="dia">
+            ???</td>
+          <td class="hora">
+          ???</td>
+        </tr>
+        
+      </tbody>
+    </table> --></div>
+                <!-- <div class="modal-footer">
+                      <p></p> --></div>
+        </div>
+        <!-- /.modal-content --></div>
+    <!-- /.modal-dialog --><!-- /.modal --><!-- /.col --><!------------------- Hidroginástica -->
+    <div class="modal fade" id="hidroginastica" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">
+                        Hidroginástica</h4>
+                </div>
+                <div class="modal-body" id="pilates-body">
+                    <img alt="Hidroginástica JPG" class="modal-img" src="https://www.marinha.mil.br/cmn/sites/www.marinha.mil.br.cmn/files/field/image/natacao.jpg" />
+                    <p>
+                        O fisioteraeuta analisa e interpreta exames e laudos médicos para ter uma visão ampla do estado de saúde do paciente e identificar alguma possível lesão. Observa também os movimentos do paciente, se tem dificuldade motora ou sente dor.<br />
+                        O tratamento varia de acordo com a condição do paciente e a lesão a ser tratada, podendo ser:<br />
+                        Aplicação de massagens | Exercícios físicos | Tratamento a base de frio e calor.</p>
+                    <p id="titulo-horarios">
+                        A Hidroginástica é realizada no prédio da Academia nos seguintes dias e horários:</p>
+                    <table class="table-active" id="table-hidroginastica">
+                        <tbody>
+                            <tr>
+                                <td class="dia">
+                                    Quarta e Sexta-feira</td>
+                                <td class="hora">
+                                    09:30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- <div class="modal-footer">
+                                <p></p> --></div>
+        </div>
+        <!-- /.modal-content --></div>
+    <!-- /.modal-dialog --><!-- /.modal --><!-- /.col --><!------------------- Circuito-Funcional -->
+    <div class="modal fade" id="circuito-funcional" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">
+                        Circuito Funcional</h4>
+                </div>
+                <div class="modal-body" id="circuito-funcional-body">
+                    <img alt="Hidroginástica JPG" class="modal-img" src="https://www.marinha.mil.br/cmn/sites/www.marinha.mil.br.cmn/files/field/image/func%201.jpg" />
+                    <p>
+                        O treinamento funcional se baseia nos movimentos naturais do ser humano, como pular, correr, puxar, agachar, girar e empurrar.<br />
+                        O praticante ganha força, equilíbio, flexibilidade, condicionamento, resistência e agilidade.<br />
+                        Na ARES-CMN o circuito funcional pode ser feito por sócios a partir dos 14 anos.</p>
+                    <p id="titulo-horarios">
+                        Os dias e horários do Circuito Funcional da ARES-CMN são os seguintes:</p>
+                    <table class="table-active" id="table-circuito-funcional">
+                        <tbody>
+                            <tr>
+                                <td class="dia">
+                                    Terça e Quinta-feira</td>
+                                <td class="hora">
+                                    10:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- <div class="modal-footer">
+                                <p></p> --></div>
+        </div>
+        <!-- /.modal-content --></div>
+    <!-- /.modal-dialog --><!-- /.modal --><!-- /.col -->
+</body>
+</html>
